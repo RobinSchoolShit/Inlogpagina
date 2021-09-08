@@ -32,6 +32,16 @@ input[type=submit] {
     justify-self: center;
 }
 
+/* Ingelogd */
+.ingelogd {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* Mobile responsive */
 @media only screen and (max-width: 600px) {
     body {

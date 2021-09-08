@@ -30,14 +30,13 @@ input[type='password'] {
   width: 150%;
   height: 25px;
   margin-bottom: 30px;
-  
 }
 
 input:focus {
-    background-color: rgb(241, 241, 241);
-    border: 2px solid #008cba;
-    border-radius: 2px;
-  }
+  background-color: rgb(241, 241, 241);
+  border: 2px solid #008cba;
+  border-radius: 2px;
+}
 
 input[type='submit'] {
   text-align: center;
@@ -62,7 +61,7 @@ input[type='submit']:hover {
 }
 
 button {
-    text-align: center;
+  text-align: center;
   border: none;
   color: white;
   padding: 8px 32px;
@@ -79,8 +78,8 @@ button {
 }
 
 button:hover {
-    background-color: #008cba;
-    color: white;
+  background-color: #008cba;
+  color: white;
 }
 
 /* Ingelogd */

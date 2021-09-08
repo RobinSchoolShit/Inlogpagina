@@ -20,13 +20,13 @@
     <div class="container">
         <div class="inloggen">
             <h2>Inloggen</h2>
-            <form action="ingelogd.html">
+            <form name="myForm" action="ingelogd.html" onsubmit="return validateForm()">
                 <!-- Email -->
                 <label for="Email">Email</label><br>
-                <input type="email" name="email" id="email" placeholder="henkdeman@gmail.com"><br>
+                <input type="email" name="email" id="email" placeholder="henkdeman@gmail.com" required><br>
                 <!-- Password -->
                 <label for="password">Wachtwoord</label><br>
-                <input type="password" name="password" id="password"><br>
+                <input type="password" name="password" id="password" required><br>
                 <!-- Submit -->
                 <input type="submit" value="submit"><br>
                 <a href="">> Wachtwoord vergeten</a>
@@ -35,8 +35,8 @@
 
         <div class="account-aanmaken">
             <h2>Account aanmaken</h2>
-            <p>Snel account maken</p>
-            <p>Voordelig account maken</p>
+            <p>Heel gemakkelijk een account aanmaken</p>
+            <p>Alles beheerd in een loginscherm</p>
             <p>Gratis account aanmaken</p>
             <button>Account aanmaken</button>
         </div>
